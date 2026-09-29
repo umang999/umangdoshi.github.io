@@ -159,6 +159,20 @@
     padding: 3px 8px;
     border-radius: 3px;
   }
+  .store-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 10px 0 12px;
+    font-size: 13.5px;
+  }
+  .store-links a {
+    color: var(--navy);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 1px;
+  }
+  .store-links a:hover { border-color: var(--accent); color: var(--accent); }
 
   .exp-item {
     display: flex;
@@ -242,6 +256,11 @@
       <h3>SonicBillX</h3>
       <div class="meta">GST billing &amp; inventory platform · Android, iOS, Web, Desktop</div>
       <p>Multi-platform billing system for wholesalers and traders. Built OCR-based purchase bill generation, Razorpay payment integration, subscription management, role-based access, WhatsApp bill delivery, and Excel import/export.</p>
+      <div class="store-links">
+        <a href="https://play.google.com/store/apps/details?id=com.sonic.erp&pcampaignid=web_share" target="_blank" rel="noopener">Play Store</a>
+        <a href="https://apps.apple.com/in/app/sonicbillx/id6751706866" target="_blank" rel="noopener">App Store</a>
+        <a href="https://erp.sonicsoftware.in/" target="_blank" rel="noopener">Web app</a>
+      </div>
       <div class="tags">
         <span class="tag">Flutter</span><span class="tag">GetX</span><span class="tag">REST API</span>
         <span class="tag">Amazon Textract</span><span class="tag">Razorpay</span>
@@ -258,11 +277,48 @@
     </div>
 
     <div class="project">
-      <h3>Giga Cash, Bill Digest, SGSSL ChatRoom, Edu Sector, Mundum</h3>
-      <div class="meta">Five additional shipped applications · Android, iOS</div>
-      <p>Expense tracking, retail shop management, stock-trading community features, an education directory, and a multi-app client portal — each built with Firebase or REST backends.</p>
+      <h3>Giga Cash</h3>
+      <div class="meta">Expense tracking &amp; personal finance app · Android, iOS</div>
+      <p>Helps users record expenses, categorize spending, and stay within budget, backed by Firebase and GetX state management.</p>
+      <div class="store-links">
+        <a href="https://play.google.com/store/apps/details?id=com.yewtec.gigacash&pcampaignid=web_share" target="_blank" rel="noopener">Play Store</a>
+        <a href="https://apps.apple.com/in/app/giga-cash/id6476600687" target="_blank" rel="noopener">App Store</a>
+      </div>
       <div class="tags">
         <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">GetX</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Bill Digest</h3>
+      <div class="meta">Retail shop management platform · Android</div>
+      <p>All-in-one shop management app for retail businesses, built on Firebase with GetX state management.</p>
+      <div class="store-links">
+        <a href="https://play.google.com/store/apps/details?id=com.yewtec.billdigest&pcampaignid=web_share" target="_blank" rel="noopener">Play Store</a>
+      </div>
+      <div class="tags">
+        <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">GetX</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Edu Sector</h3>
+      <div class="meta">Education directory app · Android</div>
+      <p>Lets users search and filter schools and universities by standard and location, and contact institutions directly through the app.</p>
+      <div class="store-links">
+        <a href="https://play.google.com/store/apps/details?id=com.eduhouse.sparks&pcampaignid=web_share" target="_blank" rel="noopener">Play Store</a>
+      </div>
+      <div class="tags">
+        <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">GetX</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Mundum</h3>
+      <div class="meta">App launcher &amp; redirect portal · Freelance project · Android</div>
+      <p>Centralized, icon-based launcher built for a client as freelance work. Uses webview routing and deep-linking to redirect users from a single entry point to the client's specific external apps and websites.</p>
+      <div class="tags">
+        <span class="tag">Flutter</span><span class="tag">GetX</span><span class="tag">Deep Linking</span>
       </div>
     </div>
   </section>
